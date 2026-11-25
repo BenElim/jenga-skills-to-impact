@@ -1,0 +1,11 @@
+# JengaLink roadmap
+- [x] Database schema, RLS, sample data
+- [ ] Design system + landing
+- [ ] Auth (register/login/reset) with roles
+- [ ] Dashboards (volunteer/org/admin)
+- [ ] Marketplace + project details + apply
+- [ ] Application & task management
+- [ ] Passport, certificates, public verify
+- [ ] Referrals & endorsements
+- [ ] Impact analytics
+- [ ] End-to-end check
