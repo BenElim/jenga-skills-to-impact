@@ -69,7 +69,7 @@ function AuthPage() {
     const { data, error } = await supabase.auth.signUp({
       email: parsed.data.email,
       password: parsed.data.password,
-      options: { emailRedirectTo: `${window.location.origin}/dashboard`, data: { full_name: parsed.data.full_name, role, org_name: parsed.data.org_name ?? "" } },
+      options: { emailRedirectTo: `${window.location.origin}/auth`, data: { full_name: parsed.data.full_name, role, org_name: parsed.data.org_name ?? "" } },
     });
     setBusy(false);
     if (error) return void toast.error(error.message);
